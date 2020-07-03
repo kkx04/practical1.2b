@@ -49,7 +49,7 @@
         android:layout_marginTop="32dp"
         android:background="@color/colorPrimary"
         android:onClick="countUp"
-        android:text="@string/Count_text"
+        android:text="@string/count_text"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/show_count"
         app:layout_constraintHorizontal_bias="0.508"
@@ -67,4 +67,7 @@
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toStartOf="@+id/show_count"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_toast" />
+        app:layout_constraintTop_toBottomOf="@+id/button_toast"
+        />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
